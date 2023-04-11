@@ -1,0 +1,29 @@
+.root:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  width: auto;
+  position: relative;
+}
+@media (max-width: 768px) {
+  .root:global(.__wab_instance) {
+    width: 158px;
+  }
+}
+.ghImage:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: contain;
+  position: relative;
+  width: 350px;
+  height: 50px;
+}
+@media (max-width: 768px) {
+  .ghImage:global(.__wab_instance) {
+    width: 238px;
+    object-fit: contain;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .ghImage:global(.__wab_instance) {
+    width: 200px;
+  }
+}

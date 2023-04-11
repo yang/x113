@@ -1,0 +1,92 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: auto;
+  max-width: 544px;
+  max-height: 563px;
+}
+.freeBox__kvcaZ {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 100%;
+  max-width: 350px;
+  background: #ffffff;
+  box-shadow: 4px 6px 50px 0px #d0d0d026;
+  min-height: 0;
+  border-radius: 20px;
+  padding: 0px;
+}
+.img__zsIHi {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  min-height: 200px;
+  min-width: 0;
+}
+.img__zsIHi > picture > img {
+  object-fit: cover;
+}
+.img__zsIHi > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.freeBox__edzmq {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 40px 20px;
+}
+.h3 {
+  width: auto;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-shrink: 0;
+  padding: 0px;
+}
+.slotTargetSlot {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .slotTargetSlot {
+    font-size: 22px;
+  }
+}
+.freeBox___3FUzt {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 409px;
+  margin-top: 22px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+  padding: 0px;
+}
+.slotTargetSlot2 {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .slotTargetSlot2 {
+    font-size: 18px;
+  }
+}

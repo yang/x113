@@ -1,0 +1,37 @@
+.root {
+  background: none;
+  display: block;
+  flex-direction: column;
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  padding: 0px;
+}
+.freeBox {
+  display: flex;
+  position: fixed;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  background: var(--token-tKMWzWl34CYq4E);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  right: 0;
+  padding: 4px 10px;
+}
+.text {
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  text-align: center;
+  color: var(--token-34PCFqUIDbWMvv);
+  line-height: 1;
+  font-size: 14px;
+  min-width: 0;
+}
